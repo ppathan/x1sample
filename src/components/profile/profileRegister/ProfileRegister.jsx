@@ -1,9 +1,5 @@
 import React, { PureComponent } from 'react';
 
-import {
-    Button,
-} from 'react-bootstrap';
-
 import './ProfileRegister.css'
 
 class ProfileRegister extends PureComponent {
