@@ -11,7 +11,7 @@ import {
 } from '../actions/updateActions';
 
 import {
-    getProfile,
+    // getProfile,
     postProfile,
     putProfile,
 } from '../actions/serviceActions';
@@ -77,7 +77,7 @@ const mapDispatchToProps = (dispatch) => ({
         dispatch(updateUI(payload));
     },
     getProfile: (id) => {
-        dispatch(getProfile(id));
+        //dispatch(getProfile(id));
     },
     postProfile: (profile) => {
         dispatch(postProfile(profile));
