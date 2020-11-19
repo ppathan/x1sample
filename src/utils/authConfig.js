@@ -3,7 +3,7 @@
 export const msalConfig = {
     auth: {
         clientId: "65cd1000-d0d4-42e3-9d26-5f54f3bbb5dc",
-        authority: "https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47",
+        authority: "https://login.microsoftonline.com/organizations",
         //redirectUri: "http://localhost:3000",
         redirectUri: "https://zealous-flower-0a99cd51e.azurestaticapps.net/"
     },
