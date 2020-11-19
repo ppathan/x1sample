@@ -4,8 +4,8 @@ export const msalConfig = {
     auth: {
         clientId: "65cd1000-d0d4-42e3-9d26-5f54f3bbb5dc",
         authority: "https://login.microsoftonline.com/organizations",
-        redirectUri: "http://localhost:3000",
-        client_secret: "99E.2m-F4K7gvl0M847_G7nI-Lf~cba_8v"
+        //redirectUri: "http://localhost:3000",
+        redirectUri: "https://zealous-flower-0a99cd51e.azurestaticapps.net/"
     },
     cache: {
         cacheLocation: "localStorage", // This configures where your cache will be stored
